@@ -1,3 +1,4 @@
+/* 전체 컨테이너 */
 .container {
   text-align: center;
   background: linear-gradient(135deg, #f9a8d4, #f472b6);
@@ -10,18 +11,21 @@
   border-radius: 12px;
 }
 
+/* 페이지 제목 */
 .title {
   font-size: 2rem;
   color: #fff;
   margin-bottom: 1rem;
 }
 
+/* 내 커플 코드 등 정보 표시 */
 .info {
   font-size: 1.2rem;
   color: #fff;
   margin-bottom: 1rem;
 }
 
+/* 입력창 스타일 */
 .input {
   width: 80%;
   max-width: 300px;
@@ -33,6 +37,7 @@
   text-align: center;
 }
 
+/* 기본 버튼 스타일 */
 .button {
   background-color: #ff6b6b;
   border: none;
@@ -42,12 +47,31 @@
   font-size: 1rem;
   cursor: pointer;
   transition: background 0.3s ease;
+  margin: 0.5rem;
 }
 
 .button:hover {
   background: #ff5252;
 }
 
+/* 내 커플 코드 공유 버튼 (예: 카카오톡 공유 등 모바일 지원) */
+.shareButton {
+  background-color: #4ade80;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 0.5rem;
+}
+
+.shareButton:hover {
+  background: #22c55e;
+}
+
+/* 상태 메시지 스타일 */
 .message {
   margin-top: 1rem;
   font-size: 1rem;
