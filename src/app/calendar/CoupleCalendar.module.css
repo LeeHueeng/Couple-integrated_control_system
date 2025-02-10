@@ -1,0 +1,38 @@
+/* 컨테이너 여백 조정 */
+.calendarWrapper {
+  padding: 20px; /* 원하는 여백 값으로 수정 */
+  background-color: #f9f9f9; /* 배경색도 필요에 따라 지정 */
+  width: 80%;
+}
+
+/* FullCalendar 툴바 스타일 오버라이드 */
+.fc .fc-toolbar {
+  margin-bottom: 20px; /* 툴바와 캘린더 사이의 간격 */
+}
+
+/* 날짜 숫자(일자) 스타일 */
+.fc .fc-daygrid-day-number {
+  font-size: 14px; /* 숫자 크기 조정 */
+  padding: 4px;
+}
+
+/* 날짜 셀 간격 줄이기 */
+.fc .fc-daygrid-day {
+  padding: 5px;
+  /* 만약 기본 패딩이 많다면 이 값을 조절하세요. */
+}
+
+/* 이벤트 제목 스타일 오버라이드 */
+.fc-event-title {
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mainContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

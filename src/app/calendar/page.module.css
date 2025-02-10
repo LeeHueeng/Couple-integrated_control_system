@@ -1,0 +1,88 @@
+/* 캘린더 컨테이너 */
+.calendarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background: linear-gradient(135deg, #f9a8d4, #f472b6);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+/* 선택한 날짜 표시 */
+.selectedDate {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* react-calendar 커스텀 */
+.customCalendar {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 캘린더 헤더 스타일 */
+.customCalendar .react-calendar__navigation {
+  background: #ff6b6b;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.customCalendar .react-calendar__navigation button {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* 요일 스타일 */
+.customCalendar .react-calendar__month-view__weekdays {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #ff6b6b;
+}
+
+/* 날짜 스타일 */
+.customCalendar .react-calendar__tile {
+  border-radius: 4px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.customCalendar .react-calendar__tile:hover {
+  background: #ff6b6b;
+  color: #fff;
+}
+
+/* 선택한 날짜 */
+.customCalendar .react-calendar__tile--active {
+  background: #ff3b3b;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* 모바일 반응형 스타일 */
+@media (max-width: 480px) {
+  .customCalendar {
+    max-width: 100%;
+  }
+}
