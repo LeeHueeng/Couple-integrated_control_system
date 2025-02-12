@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "커플 계획표",
   description: "함께하는 계획, 더 가까워지는 우리",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
