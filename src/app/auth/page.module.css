@@ -1,0 +1,49 @@
+/* app/auth/page.module.css */
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  padding: 1rem;
+}
+
+.card {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.kakaoButton {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #fee500;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #381e1f;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.kakaoButton:hover {
+  background-color: #fde102;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
